@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>รายการสั่งซื้อ | Body Scent</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-title {
+      font-size: var(--text-2xl);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line-soft);
+      background: var(--ivory);
+    }
+
+    .orders-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-size: var(--text-sm);
+      line-height: 1.7;
+    }
+
+    .orders-table th,
+    .orders-table td {
+      padding: 1rem 1.1rem;
+      border-bottom: 1px solid var(--line-soft);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .orders-table thead th {
+      background: var(--cream);
+      border-bottom: 1px solid var(--line);
+      font-family: var(--font-serif-th);
+      font-weight: 500;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+
+    .orders-table tbody td {
+      color: var(--ink-soft);
+    }
+
+    .orders-table tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .orders-table td:nth-child(1) {
+      white-space: nowrap;
+    }
+
+    .orders-table th:nth-child(5),
+    .orders-table td:nth-child(5) {
+      text-align: right;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Body Scent</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h1 class="page-title">รายการสั่งซื้อ</h1>
+          <span class="rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="table-wrap">
+          <table id="ordersTable" class="orders-table">
+            <thead>
+              <tr>
+                <th scope="col">วันเวลา</th>
+                <th scope="col">ชื่อลูกค้า</th>
+                <th scope="col">เบอร์โทร/Line</th>
+                <th scope="col">รายการสินค้า</th>
+                <th scope="col">จำนวนเงินรวม</th>
+                <th scope="col">หมายเหตุ</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">Body Scent</span>
+      <p>© 2026 Body Scent</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fresh-travel-30g",
+    "name": "ยาสีฟันสูตร Fresh (เย็นสดชื่น) หลอดพกพา 30g",
+    "mood": "fresh",
+    "type": "travel",
+    "size": "30g",
+    "price": 59,
+    "image": "images/fresh.jpg",
+    "description": "ความเย็นสดชื่นของมินต์ในหลอดพกพา เหมาะกับกระเป๋าและการเดินทาง"
+  },
+  {
+    "id": "fresh-tube-100g",
+    "name": "ยาสีฟันสูตร Fresh (เย็นสดชื่น) หลอดใหญ่ 100g",
+    "mood": "fresh",
+    "type": "tube",
+    "size": "100g",
+    "price": 139,
+    "image": "images/fresh.jpg",
+    "description": "ความเย็นสดชื่นของมินต์ในหลอดขนาดใหญ่ สำหรับใช้ประจำทุกวันที่บ้าน"
+  },
+  {
+    "id": "confident-travel-30g",
+    "name": "ยาสีฟันสูตร Confident (ฟันขาวสะอาด มั่นใจ) หลอดพกพา 30g",
+    "mood": "confident",
+    "type": "travel",
+    "size": "30g",
+    "price": 69,
+    "image": "images/confident.jpg",
+    "description": "ช่วยให้ฟันขาวสะอาด ยิ้มได้อย่างมั่นใจ ในหลอดพกพาที่หยิบใช้ได้ทุกที่"
+  },
+  {
+    "id": "confident-tube-100g",
+    "name": "ยาสีฟันสูตร Confident (ฟันขาวสะอาด มั่นใจ) หลอดใหญ่ 100g",
+    "mood": "confident",
+    "type": "tube",
+    "size": "100g",
+    "price": 159,
+    "image": "images/confident.jpg",
+    "description": "ช่วยให้ฟันขาวสะอาด ยิ้มได้อย่างมั่นใจ ในหลอดขนาดใหญ่ สำหรับใช้ประจำทุกวัน"
+  },
+  {
+    "id": "gentle-travel-30g",
+    "name": "ยาสีฟันสูตร Gentle (อ่อนโยน ลดเสียวฟัน) หลอดพกพา 30g",
+    "mood": "gentle",
+    "type": "travel",
+    "size": "30g",
+    "price": 69,
+    "image": "images/gentle.jpg",
+    "description": "สูตรอ่อนโยนช่วยลดอาการเสียวฟัน ในหลอดพกพาสำหรับใช้นอกบ้าน"
+  },
+  {
+    "id": "gentle-tube-100g",
+    "name": "ยาสีฟันสูตร Gentle (อ่อนโยน ลดเสียวฟัน) หลอดใหญ่ 100g",
+    "mood": "gentle",
+    "type": "tube",
+    "size": "100g",
+    "price": 159,
+    "image": "images/gentle.jpg",
+    "description": "สูตรอ่อนโยนช่วยลดอาการเสียวฟัน ในหลอดขนาดใหญ่ สำหรับใช้ประจำทุกวัน"
+  }
+]

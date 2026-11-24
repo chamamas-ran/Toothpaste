@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toothpaste — ออกแบบลมหายใจให้ตรงกับจังหวะชีวิต</title>
+  <meta name="description" content="Toothpaste ยาสีฟัน 3 สูตรตามอารมณ์ของคุณ: Fresh, Confident และ Gentle">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* page-specific: serif hero + mood cards */
+    .hero--full {
+      display: flex;
+      align-items: center;
+      min-height: calc(100vh - 68px);
+      min-height: calc(100svh - 68px);
+      padding-block: var(--space-8);
+    }
+    .hero--full h1 {
+      max-width: 20em;
+      font-family: "Noto Serif Thai", Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 1.1rem + 3.4vw, 3.75rem);
+      font-weight: 500;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      text-wrap: balance;
+    }
+    .mood-card {
+      color: inherit;
+      text-decoration: none;
+    }
+    .mood-card:hover { color: inherit; }
+    .mood-card .card__body { padding: var(--space-6) var(--space-5); }
+    .mood-card h3 { margin-bottom: 0; }
+    .mood-card .card__desc { margin-top: var(--space-4); }
+    .mood-card__more {
+      margin-top: auto;
+      padding-top: var(--space-5);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--teal);
+    }
+    @media (max-width: 640px) {
+      .hero--full { min-height: calc(100svh - 60px); }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Toothpaste</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="index.html" aria-current="page">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--full">
+      <div class="container">
+        <h1>“Toothpaste: ออกแบบลมหายใจให้ตรงกับจังหวะชีวิต และอารมณ์ของคุณในทุกวัน”</h1>
+        <div class="hero__actions">
+          <a class="btn" href="product.html">ดูสินค้าทั้งหมด</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="moods">
+      <div class="container">
+        <div class="section__head">
+          <h2>เลือกสูตรตามอารมณ์</h2>
+          <p>ยาสีฟัน 3 สูตร ในหลอดพกพา 30g และหลอดใหญ่ 100g</p>
+        </div>
+
+        <div class="grid grid--3">
+          <a class="card mood-card" href="product.html?mood=fresh" data-mood="fresh">
+            <div class="card__body">
+              <h3><span class="flavor-dot"></span>สดชื่น (Fresh)</h3>
+              <span class="flavor-bar"></span>
+              <p class="card__desc">ปลุกประสาทสัมผัสให้ตื่นตัวด้วยความเย็นโปร่งโล่งสบาย มอบความสะอาดสดชื่นตั้งแต่คำแรกที่แปรง ให้คุณพร้อมรับมือกับทุกเช้าที่เร่งรีบ</p>
+              <span class="mood-card__more">ดูสินค้าสูตร Fresh</span>
+            </div>
+          </a>
+
+          <a class="card mood-card" href="product.html?mood=confident" data-mood="confident">
+            <div class="card__body">
+              <h3><span class="flavor-dot"></span>มั่นใจ (Confident)</h3>
+              <span class="flavor-bar"></span>
+              <p class="card__desc">เสริมบุคลิกให้ดูดีและนิ่งสงบด้วยฟันขาวสะอาดและลมหายใจหอมยาวนาน พร้อมให้คุณพูดคุยและเข้าสังคมได้อย่างเต็มที่ในทุกสถานการณ์สำคัญ</p>
+              <span class="mood-card__more">ดูสินค้าสูตร Confident</span>
+            </div>
+          </a>
+
+          <a class="card mood-card" href="product.html?mood=gentle" data-mood="gentle">
+            <div class="card__body">
+              <h3><span class="flavor-dot"></span>อ่อนโยน (Gentle)</h3>
+              <span class="flavor-bar"></span>
+              <p class="card__desc">สัมผัสความนุ่มนวลที่เย็นละมุนกำลังดี ไม่เผ็ดแสบลิ้น ช่วยผ่อนคลายช่องปากและลดอาการเสียวฟันอย่างอ่อนโยน เหมาะสำหรับวันที่ต้องการการดูแลเป็นพิเศษ</p>
+              <span class="mood-card__more">ดูสินค้าสูตร Gentle</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>© Toothpaste</span>
+      <a href="product.html">สินค้าทั้งหมด</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

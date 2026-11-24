@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้าทั้งหมด — Toothpaste</title>
+  <meta name="description" content="ยาสีฟัน Toothpaste ทั้ง 3 สูตร Fresh, Confident และ Gentle ในหลอดพกพา 30g และหลอดใหญ่ 100g">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-title h1 { font-size: var(--text-2xl); letter-spacing: -0.02em; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Toothpaste</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html" aria-current="page">สินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__head page-title">
+          <h1>สินค้าทั้งหมด</h1>
+          <p>เลือกสูตรที่ตรงกับอารมณ์ของคุณ ทั้งหลอดพกพา 30g และหลอดใหญ่ 100g</p>
+        </div>
+
+        <div id="filter-bar" class="filters" role="group" aria-label="กรองตามสูตร"></div>
+
+        <div id="product-list" class="grid grid--3"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>© Toothpaste</span>
+      <a href="index.html">กลับหน้าแรก</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
